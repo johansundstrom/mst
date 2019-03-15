@@ -2,6 +2,6 @@
 
 * ```npm init -y``` skapar package.json
 * ```npm i node-sass```
-* scripts-objektet i package.json
+* scripts-kommandot
 * ```"sass": "node-sass -w scss/ -o css/" //watch folder, output folder```
 * ```npm run sass```
