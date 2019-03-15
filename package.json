@@ -1,0 +1,24 @@
+{
+  "name": "mst",
+  "version": "1.0.0",
+  "description": "Work in Progress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --watch scss/ --output css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johansundstrom/mst.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johansundstrom/mst/issues"
+  },
+  "homepage": "https://github.com/johansundstrom/mst#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

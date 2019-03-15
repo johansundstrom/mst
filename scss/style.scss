@@ -1,0 +1,33 @@
+$bg-color: #f4f3e4;
+$content-color: #fefefe;
+$whole-border: 1px solid #ccc;
+$bg-header: #fcdb6f;
+
+
+.main {
+    margin: 10px;
+}
+
+.whole {
+    padding: 2px;
+    border: $whole-border;
+    background-color: $content-color;
+}
+
+.footer {
+    padding: 1em;
+    font-size: .8em;
+}
+
+.mycard-deck {
+    margin-bottom: 2em;
+}
+
+.body-bg {
+    background-color: #f4f3e49a;
+    background-color: $bg-color;
+}
+
+.bg-header {
+    background-color: $bg-header;
+} 
