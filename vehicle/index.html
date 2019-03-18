@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
+    <!-- Private JS-->
+    <script src="js/javascript.js"></script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -16,7 +19,11 @@
     <title>MDH Solar Team - Vehicle</title>
 </head>
 
-<body>
+<body class="body-bg bg-gradient-primary pt-2 pb-2">
+    <div class="container  whole">
+
+    <div w3-include-html="assets/nav.html"></div>
+
     <!--navbar-->
     <nav class="navbar navbar-expand-md navbar-light bg-warning">
         <a class="navbar-brand" href="/"><i class="fas fa-home"></i></a>
@@ -100,21 +107,7 @@
     </div>
 
 
-    <!--footer-->
-    <div class="footer bg-warning">
-        <div class="row">
-            <div class="col-sm">
-                <p>Contact</p>
-            </div>
-            <div class="col-sm">
-                Address
-            </div>
-            <div class="col-sm">
-                other
-            </div>
-        </div>
-    </div>
-    <!--/footer-->
+    <div w3-include-html="assets/footer.html"></div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
