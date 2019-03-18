@@ -4,7 +4,7 @@
 .whole {
   padding: 2px;
   border: 1px solid #ccc;
-  background-color: #fefefe; }
+  background-color: white; }
 
 .footer {
   padding: 1em;
@@ -15,7 +15,7 @@
 
 .body-bg {
   background-color: #f4f3e49a;
-  background-color: #f4f3e4; }
+  background-color: #f8f2dc; }
 
 .bg-header {
   background-color: #fcdb6f; }
