@@ -1,7 +1,8 @@
 $bg-color: #f7f4eb;
 $content-color: white;
 $whole-border: 1px solid #ccc;
-$bg-header: #fcdb6f;
+$bg-header-start: #fcdb6f;
+$bg-header-end: #f27e4d;
 
 
 .main {
@@ -28,6 +29,13 @@ $bg-header: #fcdb6f;
     background-color: $bg-color;
 }
 
+/*
 .bg-header {
     background-color: $bg-header;
 } 
+*/
+
+.bg-header  {
+    background-color: red; 
+    background-image: linear-gradient(to right, $bg-header-start, $bg-header-end);
+}

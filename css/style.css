@@ -15,23 +15,13 @@
 
 .body-bg {
   background-color: #f4f3e49a;
-  background-color: #f8f2dc; }
+  background-color: #f7f4eb; }
 
+/*
 .bg-header {
-  background-color: #fcdb6f; }
-
-/* Stackoverflow preview fix, please ignore */
-.navbar-nav {
-  flex-direction: row;
-}
-
-.nav-link {
-  padding-right: .5rem !important;
-  padding-left: .5rem !important;
-}
-
-/* Fixes dropdown menus placed on the right side */
-.ml-auto .dropdown-menu {
-  left: auto !important;
-  right: 0px;
-}
+    background-color: $bg-header;
+} 
+*/
+.bg-header {
+  background-color: red;
+  background-image: linear-gradient(to right, #fcdb6f, #f27e4d); }

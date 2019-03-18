@@ -1,12 +1,14 @@
 <!doctype html>
 <html lang="en">
 
-<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Private JS-->
+    <script src="/js/javascript.js"></script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -16,93 +18,45 @@
     <title>MDH Solar Team - Vehicle - Facts</title>
 </head>
 
-<body>
-    <!--navbar-->
-    <nav class="navbar navbar-expand-md navbar-light bg-warning">
-        <a class="navbar-brand" href="/"><i class="fas fa-home"></i></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<body class="body-bg bg-gradient-primary pt-2 pb-2">
+    <div class="container  whole">
+            
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./">Vehicle</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/team">Team <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/press">Press</a>
-                </li>
+        <div include-html="/assets/nav.html"></div>
 
-                <!--li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li-->
+        <div class="container-fluid mt-sm-4">
 
-            </ul>
+            <h1 class="h2">Hello, world!</h1>
+            <p>dkjo dkofds kopfd kopfdkop </p>
 
-        </div>
-    </nav>
-    <!--/navbar-->
-
-    <div class="container-fluid mt-sm-4">
-
-        <h1 class="h2">Hello, world!</h1>
-        <p>dkjo dkofds kopfd kopfdkop </p>
-
-        <div class="card mb-3">
-            <img src="/images/solarcar-01.jpg" class="card-img-top" alt="...">
-            <div class="card-img-overlay text-dark">
+            <div class="card mb-3">
+                <img src="/images/solarcar-01.jpg" class="card-img-top" alt="...">
+                <div class="card-img-overlay text-dark">
                     <h2 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with supporting </p>
                     <p class="card-text">Last updated 3 mins ago</p>
-                  </div>
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                        content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
             </div>
+
+            <img src="/images/solarcar-01.jpg" alt="..." class="img-thumbnail">
+            <p>jdkds jkjfklds jlk</p>
+            <img src="/images/solarcar-01.jpg" class="rounded mx-auto d-block" alt="...">
+            <p>jdkds jkjfklds jlk</p>
+            <img src="/images/solarcar-01.jpg" alt="..." class="img-thumbnail right">
+            <p>jdkds jkjfklds jlk</p>
+
+
+
         </div>
 
-        <img src="/images/solarcar-01.jpg" alt="..." class="img-thumbnail">
-        <p>jdkds jkjfklds jlk</p>
-        <img src="/images/solarcar-01.jpg" class="rounded mx-auto d-block" alt="...">
-        <p>jdkds jkjfklds jlk</p>
-        <img src="/images/solarcar-01.jpg" alt="..." class="img-thumbnail">
-        <p>jdkds jkjfklds jlk</p>
-
-
-
+        <div include-html="../assets/footer.html"></div>
     </div>
-
-
-    <!--footer-->
-    <div class="footer bg-warning">
-        <div class="row">
-            <div class="col-sm">
-                <p>Contact</p>
-            </div>
-            <div class="col-sm">
-                Address
-            </div>
-            <div class="col-sm">
-                other
-            </div>
-        </div>
-    </div>
-    <!--/footer-->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -115,6 +69,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+    <script>includeHTML();</script>
 </body>
 
 </html>
