@@ -69,9 +69,20 @@ body {
 }
 
 .my-mt-15 {
-  margin-top: 14em;
+  margin-top: 70%;
+  width: 100%;
 }
 .overlay-opac {
   background-color: #fff;
-  opacity: 0.65;
+  opacity: 0.70;
+  padding-top: 10.em;
+}
+
+.my-fluid-text {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+  font-size: 2vw;
+  font-size: 1vh;
+  font-size: 2vmin;
 }
