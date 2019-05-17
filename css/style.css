@@ -65,4 +65,13 @@ body {
 
 .countdown {
   padding: 3px;
-  color: red; }
+  color: red; 
+}
+
+.my-mt-15 {
+  margin-top: 14em;
+}
+.overlay-opac {
+  background-color: #fff;
+  opacity: 0.65;
+}
