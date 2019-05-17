@@ -79,9 +79,7 @@ body {
 }
 
 .my-fluid-text {
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s, opacity 0.5s linear;
+  
   font-size: 2vw;
   font-size: 1vh;
   font-size: 2vmin;

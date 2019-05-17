@@ -56,3 +56,9 @@ var x = setInterval(function() {
     document.getElementById("myCountDown").innerHTML = "Race is over!";
   }
 }, 1000);
+
+
+function showTitle(){
+    document.getElementById("#ayad")
+    
+}
