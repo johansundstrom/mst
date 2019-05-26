@@ -97,3 +97,10 @@ color: red;
     padding: 3px;
     color: red;
 }
+
+.my-shadow-lg {
+    text-shadow: 3px 3px 0 #be850a, 3px -3px 0 #922f05, -3px 3px 0 #922f05, -3px -3px 0 #922f05, 3px 0px 0 #922f05, 0px 3px 0 #922f05, -3px 0px 0 #922f05, 0px -3px 0 #922f05, 4px 4px 7px rgba(10, 10, 10, 0.95); }
+  
+  .my-shadow-sm {
+    text-shadow: 2px 2px 0 #922f05, 2px -2px 0 #922f05, -2px 2px 0 #922f05, -2px -2px 0 #922f05, 2px 0px 0 #922f05, 0px 2px 0 #922f05, -2px 0px 0 #922f05, 0px -2px 0 #922f05, 1px 1px 2px rgba(206, 226, 22, 0.95); }
+  
