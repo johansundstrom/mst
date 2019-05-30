@@ -49,9 +49,9 @@
                     <img src="/images/your-logo-here-16-10.jpg" height="300" class="d-block w-100 img-fluid"
                         alt="...">
                     <img class="check d-block w-100 img-fluid" alt="">
-                    <div class="card-img-overlay text-dark">
+                    <div class="card-img-overlay text-dark text-right">
                         <h1 class="card-title display-1 text-dark my-shadow-lg">Become partner</h1>
-                        <a class="btn btn-warning btn-lg" href="#" role="button">More info</a>
+                        <a class="btn btn-warning btn-lg" href="partner/" role="button">More info</a>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -70,7 +70,7 @@
                     <div class="card-img-overlay text-dark">
                         <h1 class="card-title display-1 text-dark my-shadow-lg">Brakes</h1>
                         <p class="card-text display-5 text-white my-shadow-sm">Not that simple - They must do the job</p>
-                            <a class="btn btn-warning btn-lg" href="vehicle/brake-system.html" role="button">Look inside</a>
+                            <a class="btn btn-warning btn-lg" href="vehicle/brake-system.php" role="button">Look inside</a>
                     </div>
                 </div>
             </div>
@@ -130,7 +130,7 @@
                 </div>
 
                 <div class="card shadow p-1 mb-3 bg-white rounded">
-                    <img class="card-img-top" src="images/Press-picture.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="images/press-picture.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Press</h5>
                         <p class="card-text">

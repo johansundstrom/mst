@@ -43,8 +43,8 @@
 
             <p>
                 <br>
-                <a href="students.html" class="btn btn-dark">Presenting students</a>
-                <a href="sponsors.html" class="btn btn-dark">Our Partners</a>
+                <a href="/team/students.php" class="btn btn-dark">Presenting students</a>
+                <a href="sponsors.php" class="btn btn-dark">Our Partners</a>
             </p>
             <p>Even as children we were the curius kind. Spending time watching the environment around us, learning from
                 it, developing with it. Today as students at Mälardalen University we are study becoming the next

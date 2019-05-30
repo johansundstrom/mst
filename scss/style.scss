@@ -6,10 +6,13 @@ $bg-header-end: #ff8800;
 $text-outline: #ff8800;
 
 @import url("/css/logo-grid.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 @font-face {
     font-family: 'New Gothic MT';
     src: url('/fonts/NewsGothicMT.ttf'); 
+
+    
 }
 
 .main {
@@ -21,6 +24,10 @@ $text-outline: #ff8800;
     border: $whole-border;
     background-color: $content-color;
 }
+
+.h2 .h3 .h4 p {
+    font-family: 'Open Sans', sans-serif;
+} 
 
 .footer {
     padding: 1em;
@@ -75,7 +82,7 @@ $text-outline: #ff8800;
     opacity: 0.5;
 }
 body {
-    background-image: url(../images/mm-blue.png);
+    background-image: url(../images/mm-paper-v2.png);
     background-repeat: repeat;
 }
 .fa-facebook-square {
@@ -126,25 +133,30 @@ color: red;
   
   
   .card-img:hover .grow {   
-    width: 130%;   
-    height: 130%; 
+
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
     transition: all 0.5s ease;
   }  
+
   .card-img:hover {
     opacity: 0.4;
     transition: 0.5s ease-in-out;
+    width: 110%; 
   }
+  
   
   .overlay-opac2 {
     opacity: 6;
   }
   
   .card-img-overlay {
-    opacity: 50%;
+    opacity: 0%;
   }
-  
+
+  a.carousel-control-prev a.carousel-control-next {
+    width: 7%;
+  }
   

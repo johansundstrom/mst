@@ -1,3 +1,5 @@
+<?php require "../assets/conn.php"; ?>
+
 <!doctype html>
 <html lang="en">
 
@@ -25,7 +27,7 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Private CSS-->
     <link rel="stylesheet" href="/css/style.css">
-    <title>MDH Solar Team - Vehicle</title>
+    <title>MDH Solar Team - the Team</title>
 </head>
 
 <body class="body-bg bg-gradient-primary pt-2 pb-2">
@@ -35,50 +37,44 @@
 
     <div class="container-fluid mt-sm-4">
 
-        <h1 class="h2">All about the vehicle</h1>
+        <h1 class="h2">The Team</h1>
         
 
         <!--card-->
-        <div class="card-deck mycard-deck">
+        <div class="card-columns">
 
-                <div class="card shadow p-1 mb-3 bg-white rounded" style="width: 25rem;">
-                    <img class="card-img-top" src="/images/carbon-fiber-producton.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Carbon fiber</h5>
-                        <p class="card-text p-0">
-                                Make it yourself. It’s fun!
-                        </p>
-                        <a href="carbon-fiber.html" class="btn btn-warning">See Johan in action</a>
-                    </div>
-                </div>
+            <?php    
+                $sql = "SELECT * FROM members";
+                $result = $conn->query($sql);
 
-                <div class="card shadow p-1 mb-3 bg-white rounded" style="width: 25rem;">
-                    <img class="card-img-top" src="/images/brake.pedal.1.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Brake pedal</h5>
-                        <p class="card-text">
-                                How we make a safe car 
-                        </p>
-                        <a href="brake-system.html" class="btn btn-warning">Read about our braketrough</a>
-                    </div>
-                </div>
+                if ($result->num_rows > 0) {
+                    while($row = $result->fetch_assoc()) {
 
-                <div class="card shadow p-1 mb-3 bg-white rounded" style="width: 25rem;">
-                    <img class="card-img-top" src="/images/roll-cage.1.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Roll cage</h5>
-                        <p class="card-text">
-                                How we make a safe car 
-                        </p>
-                        <a href="roll-cage.html" class="btn btn-warning">Inspect the proces</a>
-                    </div>
-                </div>
-            </div>
-            <!--/cards-->
-            <div class="container">
-                    <div include-html="/assets/logos.html"></div>
-            </div>
-        </div>
+                echo '<div class="card grow">';
+                    echo '<img  class="card-img" src="/images/team/' . $row["pic"] . '-500.jpg">';
+                    echo '<div class="card-img-overlay overlay-opac my-mt-15">';
+
+                        echo '<div class="card-img-overlay pt-2">';
+                            echo '<h5 class="card-title">' . $row["first"] . ' ' . $row["last"] . '</h5>';
+                            echo '<p class="card-text">' . $row["role"] . '<br>';
+                            echo 'Production and product design</p>';
+                        echo '</div>';
+                    echo '</div>';
+                echo '</div>';
+
+                    }
+                } else {
+                    echo "0 results";
+                }
+                $conn->close();
+            ?>       
+
+    </div>
+    <br>
+    <!--/card-->
+
+
+    
 
 
     <div include-html="../assets/footer.html"></div>
