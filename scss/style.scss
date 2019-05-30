@@ -2,11 +2,15 @@ $bg-color: #f7f4eb;
 $content-color: white;
 $whole-border: 1px solid #ccc;
 $bg-header-start: #fff0bf;
-$bg-header-end: #e9ba1f;
-$text-outline: #d8601a;
+$bg-header-end: #ff8800;
+$text-outline: #ff8800;
 
 @import url("/css/logo-grid.css");
 
+@font-face {
+    font-family: 'New Gothic MT';
+    src: url('/fonts/NewsGothicMT.ttf'); 
+}
 
 .main {
     margin: 10px;
@@ -21,6 +25,8 @@ $text-outline: #d8601a;
 .footer {
     padding: 1em;
     font-size: .8em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to top, $bg-header-start, $bg-header-end);
 }
 
 .mycard-deck {
@@ -39,6 +45,7 @@ $text-outline: #d8601a;
 
 .bg-header  {
     background-image: linear-gradient(to right, $bg-header-start, $bg-header-end);
+    height: 5em;
 }
 .my-shadow-lg { text-shadow: 
     3px 3px 0 $text-outline, 
@@ -49,7 +56,8 @@ $text-outline: #d8601a;
     0px 3px 0 $text-outline, 
     -3px 0px 0 $text-outline, 
     0px -3px 0 $text-outline, 
-    4px 4px 7px rgba(10, 10, 10, 0.95);
+    4px 4px 7px rgba(255, 255, 255, 0.95);
+    font-family: "New Gothic MT";
 }
 .my-shadow-sm { text-shadow: 
     2px 2px 0 $text-outline, 
