@@ -1,8 +1,8 @@
 <?php
-    $servername = "mdhsolarteam.se.mysql";
-    $username = "mdhsolarteam_se";
-    $password = "frJivSDYTj6CVQpDsifapVpd";
-    $database = "mdhsolarteam_se";
+    $servername = "x";
+    $username = "y";
+    $password = "z";
+    $database = "x";
 
     // Create connection
     $conn=mysqli_connect($servername, $username, $password, $database);
