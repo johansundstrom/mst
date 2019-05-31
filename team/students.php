@@ -69,13 +69,9 @@
                 $conn->close();
             ?>       
 
-    </div>
-    <br>
-    <!--/card-->
-
-
-    
-
+        </div>
+        <!--/card-->
+        <br>
 
     <div include-html="../assets/footer.html"></div>
 

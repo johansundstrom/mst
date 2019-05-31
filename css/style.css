@@ -103,7 +103,8 @@ body {
 .card-img:hover {
   opacity: 0.4;
   transition: 0.5s ease-in-out;
-  width: 110%; }
+  width: 105%;
+  display: block; }
 
 .overlay-opac2 {
   opacity: 6; }
@@ -111,5 +112,5 @@ body {
 .card-img-overlay {
   opacity: 0%; }
 
-a.carousel-control-prev a.carousel-control-next {
-  width: 7%; }
+a.carousel-control-prev, a.carousel-control-next {
+  width: 5%; }

@@ -142,11 +142,12 @@
             </div>
 
             <div class="container">
-                <div include-html="/assets/logos.html"></div>
+                <?php require "assets/logos.php"; ?>
             </div>
 
         </div>
         <!--/header-->
+
 
         <div include-html="assets/footer.html"></div>
 

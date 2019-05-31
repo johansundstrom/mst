@@ -53,7 +53,7 @@
                 </div>
 
                 <div class="card shadow p-1 mb-3 bg-white rounded" style="width: 25rem;">
-                    <img class="card-img-top" src="/images/brake.pedal.1.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="/images/brake-pedal-prototype-01.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Brake pedal</h5>
                         <p class="card-text">
@@ -64,11 +64,11 @@
                 </div>
 
                 <div class="card shadow p-1 mb-3 bg-white rounded" style="width: 25rem;">
-                    <img class="card-img-top" src="/images/roll-cage.1.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="/images/roll-cage-prototype-01.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Roll cage</h5>
                         <p class="card-text">
-                                How we make a safe car 
+                                Collision safe car 
                         </p>
                         <a href="roll-cage.php" class="btn btn-warning">Inspect the proces</a>
                     </div>
@@ -77,6 +77,10 @@
             <!--/cards-->
             <div class="container">
                     <div include-html="/assets/logos.html"></div>
+            </div>
+
+            <div class="container">
+                <?php require "../assets/logos.php"; ?>
             </div>
         </div>
 
