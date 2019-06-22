@@ -27,11 +27,13 @@
 <title>MDH Solar Team - Vehicle - Facts</title>
 </head>
 
-<body class="body-bg bg-gradient-primary pt-2 pb-2">
-    <div class="container  whole">
+<body class="body-bg bg-gradient-primary">
+    
+    <div include-html="/assets/header.html"></div>
 
+    <div include-html="/assets/nav-v2.html"></div>
 
-        <div include-html="/assets/nav.html"></div>
+    <div class="container">
 
         <div class="container-fluid mt-sm-4">
 
@@ -66,32 +68,28 @@
 
             <h2>This is how it's done - see Johan in action</h2>
 
-            <div class="card-deck">
+            <div class="card-columns">
+                
                 <div class="card">
                     <img class="card-img-top" src="/images/carbon-fiber-first-test.jpg" alt="">
                     <div class="card-body">
-
                         <p class="card-text">1. we calculate and produce CAD-files of the form. Eskilstuna Modellteknik
                             is doing the milling and the mold's is taking shape. The mold's is sanded
                             with paper and bees-waxed to fill the pores in the material.</p>
                     </div>
                 </div>
-                <div class="card">
+
+                <div class="card p-2">
                     <img class="card-img-top" src="/images/carbon-fiber-producton.jpg" alt="">
                     <div class="card-body">
-
                         <p class="card-text">2. A layer of preimpregnated carbon fiber is covered with a layer of
                             woven polyester.</p>
                     </div>
                 </div>
-            </div>
-            <br>
 
-            <div class="card-deck">
                 <div class="card">
                     <img class="card-img-top" src="/images/carbon-fiber-vaccum.jpg" alt="">
                     <div class="card-body">
-
                         <p class="card-text">3. Vaccum is created with a plastic material in order to get rid of
                             trapped air and to avoid shifting of fiber orientation during the drying process. This
                             could have a negative impact on durability of the parts.</p>
@@ -101,38 +99,23 @@
                 <div class="card">
                     <img class="card-img-top" src="/images/carbon-fiber-owen.jpg" alt="">
                     <div class="card-body">
-
                         <p class="card-text">4. An oven is manufactured with heat gun's to heat up the air inside where
                             the parts is baked. One crucial detail is finding the sweet spot for the temperature.</p>
                     </div>
                 </div>
-            </div>
-            <br>
 
-
-            <div class="card-deck">
                 <div class="card">
                     <img class="card-img-top" src="/images/carbon-fiber-5.jpg" alt="">
                     <div class="card-body">
-
                         <p class="card-text">5. Finished product. Strong and light weight.</p>
                     </div>
                 </div>
 
-                <div class="card">
-                    <img class="card-img-top" src="/" alt="">
-                    <div class="card-body">
-
-
-                    </div>
-                </div>
-            </div>
-            <br>
-
         </div>
-
-        <div include-html="/assets/footer.html"></div>
     </div>
+    
+    <div include-html="/assets/footer.html"></div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

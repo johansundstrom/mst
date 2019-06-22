@@ -27,40 +27,44 @@
     <title>MDH Solar Team - Vehicle - Facts</title>
 </head>
 
-<body class="body-bg bg-gradient-primary pt-2 pb-2">
-    <div class="container whole">
-            
+<body class="body-bg bg-gradient-primary">
+    
+    <div include-html="/assets/header.html"></div>
 
-        <div include-html="/assets/nav.html"></div>
+    <div include-html="/assets/nav-v2.html"></div>
 
-        <div class="container-fluid mt-sm-4">
+    <div class="container">
 
-            <h1 class="h2">Braking system</h1>
-            <p>How to survive the road in Australia </p>
+        <h1 class="h2">Survive the outback</h1>
+        <p class="lead">How to survive the road in Australia</p>
 
-            <div class="card mb-3">
-                <img src="/images/roll-cage.1.jpg" class="card-img-top" alt="...">
-                <div class="card-img-overlay text-dark">
-                    <h2 class="card-title">The roll cage </h5>   <!-- Gör bättre anpassad -->
-                    <p class="card-text">We designed the roll cage to be safe yet as light as 
-                        possible and make our drivers get the most out of the car without 
-                        compromising their safety.  </p>
-                    <p class="card-text">Last updated 3 mins ago</p>
-                </div>
+        <h2 class="card-title">The roll cage </h2>
+        <img src="/images/roll-cage.1.jpg" class="img-fluid" alt="">
                 
-            </div>
+        <p class="card-text">It is crucial to design the roll cage for safety and yet as light weight as 
+            possible. The car is built to bodily fit the three designated driver from our team.</p>
+
+        <p>In the picture Johan, one of the three selected drivers, is posing as driver and Joel is meassuring 
+            every angle and length. We begin with a prototype built by wood stud's.</p>
+
+        <img src="/images/roll-cage-reg-01.jpg" class="img-fluid" alt="">
+        <p>Bridgestone World Solar Challenge is the worlds most well-known solar powered race car event. The regulation 
+            for participating is rigorous with it's 60 pages rules. A major part of the contents in the regulation stipulates safety rules. 
+            A big scrutinization is executed before the race and it takes almost 3 days to be cleared for the race. It is like a yearly swedish authority
+             car inspection on stereoids in order to get to drive on Australian public roads.
+        </p>
 
 
           
 
-      
+      <!--
            
             <p>Now we present one of the core parts of Viking. It’s not the brain or 
                 an extravagant beautiful part, but it’s an important part. The role 
                 cage is for the safety of our drivers. Works like a last shell if they
                  collide with something. Brigestone World Solar Chalenge 2019 
                  regulations were followed during the design process. </p>
-            <img src="/images/carbon-fiber-producton.jpg" class="rounded mx-auto d-block" alt="Responsive image">  <!-- Gör responsiv -->
+            <img src="/images/carbon-fiber-producton.jpg" class="rounded mx-auto d-block" alt="Responsive image">  
             <p>The proses begun with a CAD model. With some work and calculations, 
                 the process went forward. To get a grip on the real size of the model
                  a mockup was built whit the exact measurements. That’s also where 
@@ -71,17 +75,19 @@
                  CAD model. (FEM-analyses ore Finite Element Method are a way to calculate 
                  with numerical methods in simulation firmware.) When the analysis where
                   done we got the design approved by a professional.    </p>
-            <img src="/images/Carbon-fiber-ugn.jpg" class="rounded mx-auto d-block" alt="Responsive image">  <!-- Gör responsiv -->
+            <img src="/images/Carbon-fiber-ugn.jpg" class="rounded mx-auto d-block" alt="Responsive image">
             <p>A big part of our material choice where made with weight and durability 
                 in mind. The new material is lighter and with design changes a lot 
                 lighter. The material used are called roll cage steel and are a lighter
                  but sturdy.   </p>
-
+-->
 
         </div>
-
-        <div include-html="../assets/footer.html"></div>
+    
     </div>
+    
+    <div include-html="../assets/footer.html"></div>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

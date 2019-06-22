@@ -28,12 +28,13 @@
     <title>MDH Solar Team - Vehicle</title>
 </head>
 
-<body class="body-bg bg-gradient-primary pt-2 pb-2">
-    <div class="container  whole">
+<body class="body-bg bg-gradient-primary">
 
-    <div include-html="/assets/nav.html"></div>
+    <div include-html="/assets/header.html"></div>
 
-    <div class="container-fluid mt-sm-4">
+    <div include-html="/assets/nav-v2.html"></div>
+
+    <div class="container">
 
         <h1 class="h2">All about the vehicle</h1>
         
@@ -70,7 +71,7 @@
                         <p class="card-text">
                                 Collision safe car 
                         </p>
-                        <a href="roll-cage.php" class="btn btn-warning">Inspect the proces</a>
+                        <a href="roll-cage.php" class="btn btn-warning">Inspect the process</a>
                     </div>
                 </div>
             </div>

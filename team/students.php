@@ -30,50 +30,55 @@
     <title>MDH Solar Team - the Team</title>
 </head>
 
-<body class="body-bg bg-gradient-primary pt-2 pb-2">
-    <div class="container  whole">
+<body class="body-bg bg-gradient-primary">
+    
+    <div include-html="/assets/header.html"></div>
 
-    <div include-html="/assets/nav.html"></div>
+    <div include-html="/assets/nav-v2.html"></div>
 
-    <div class="container-fluid mt-sm-4">
+    <div class="container">
 
-        <h1 class="h2">The Team</h1>
-        
+        <div class="container-fluid mt-sm-4">
 
-        <!--card-->
-        <div class="card-columns">
+            <h1 class="h2">Meet the Team</h1>
+            
 
-            <?php    
-                $sql = "SELECT * FROM members";
-                $result = $conn->query($sql);
+            <!--card-->
+            <div class="card-columns">
 
-                if ($result->num_rows > 0) {
-                    while($row = $result->fetch_assoc()) {
+                <?php    
+                    $sql = "SELECT * FROM members";
+                    $result = $conn->query($sql);
 
-                echo '<div class="card grow">';
-                    echo '<img  class="card-img" src="/images/team/' . $row["pic"] . '-500.jpg">';
-                    echo '<div class="card-img-overlay overlay-opac my-mt-15">';
+                    if ($result->num_rows > 0) {
+                        while($row = $result->fetch_assoc()) {
 
-                        echo '<div class="card-img-overlay pt-2">';
-                            echo '<h5 class="card-title">' . $row["first"] . ' ' . $row["last"] . '</h5>';
-                            echo '<p class="card-text">' . $row["role"] . '<br>';
-                            echo $row["program"] . '</p>';
+                    echo '<div class="card img-hover-zoom img-hover-zoom--colorize">';
+                        echo '<img class="card-img" src="/images/team/' . $row["pic"] . '-500.jpg">';
+                        
+                        echo '<div class="card-img-overlay overlay-opac my-mt-15">';
+                            echo '<div class="card-img-overlay my-shadow-sm">';
+                                echo '<h5 class="card-title">' . $row["first"] . ' ' . $row["last"] . '</h5>';
+                                echo '<p class="card-text">' . $row["role"] . '<br>';
+                                echo $row["program"] . '</p>';
+                            echo '</div>';
                         echo '</div>';
+
                     echo '</div>';
-                echo '</div>';
 
+                        }
+                    } else {
+                        echo "0 results";
                     }
-                } else {
-                    echo "0 results";
-                }
-                $conn->close();
-            ?>       
+                    $conn->close();
+                ?>       
 
-        </div>
+            </div>
         <!--/card-->
         <br>
+    </div>
 
-    <div include-html="../assets/footer.html"></div>
+    <div include-html="/assets/footer.html"></div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

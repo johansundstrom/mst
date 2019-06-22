@@ -28,13 +28,13 @@
     <title>MDH Solar Team - Vehicle</title>
 </head>
 
-<body class="body-bg bg-gradient-primary pt-2 pb-2">
+<body class="body-bg bg-gradient-primary">
     
-    <div class="container  whole">
+    <div include-html="/assets/header.html"></div>
 
-        <div include-html="/assets/nav.html"></div>
+    <div include-html="/assets/nav-v2.html"></div>
 
-            <div class="container-fluid mt-sm-4">
+    <div class="container">
 
                 <h1 class="h1">Be partners with us</h1>
             
@@ -44,7 +44,6 @@
                 </p>
                 <p>Contact our marketing team respresentative <a href="mailto:solarteam@mdh.se">solarteam@mdh.se</a> or call +46 16 15 3639</p>
 
-                <h2>A massive Thank You to all our current partners</h2> 
                 <div include-html="/assets/logos.php"></div>
             </div>
         </div>

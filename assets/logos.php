@@ -2,11 +2,11 @@
     $path = $_SERVER['DOCUMENT_ROOT'];
     $path .= "/assets/conn.php"; 
     include_once($path);
-?>
 
-<div class="grid-container mb-4">
+    echo '<hr>';
+    echo '<h3>A massive thank you to our sponsors</h3>';
+    echo '<div class="grid-container mb-4">';
 
-    <?php    
         $sql = "SELECT * FROM sponsors";
         $result = $conn->query($sql);
 

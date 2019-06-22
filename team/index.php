@@ -28,48 +28,49 @@
     <title>MDH Solar Team - Team</title>
 </head>
 
-<body class="body-bg bg-gradient-primary pt-2 pb-2">
-    <div class="container whole">
+<body class="body-bg bg-gradient-primary">
+    
+    <div include-html="/assets/header.html"></div>
 
-        <div include-html="/assets/nav.html"></div>
+    <div include-html="/assets/nav-v2.html"></div>
 
-        <div class="container-fluid mt-sm-4">
+    <div class="container">
 
-            <h1 class="h1">Team</h1>
+        <p><a href="/team/students.php" class="btn btn-dark">Meet the Team</a></p>
+        <h1 class="h1">The Team</h1>
+
+        <!-- picture -->
+        <img src="/images/team-black-bg.jpg" class="img-fluid" alt="">
+
+    
+        <p>As persons, we are devoted to invest our time and effort in future energy system. We can all 
+        see ourselves working with future environmental friendly and sustainable systems.</p>
+        <p>We are currently students and represent the following fields...</p>
+
+        <ul class="list-group list-group-horizontal-lg">
+            <li class="list-group-item"><a href="https://mdh.se/utbildning/program/utbildningsplaner-1.44892?kod=1045">Information designers</a></li>
+            <li class="list-group-item">Engineers within...
+                <ul class="list-group list-group-flush list-group-horizontal-lg">
+                    <li class="list-group-item"><a href="https://mdh.se/utbildning/program/utbildningsplaner-1.44892?kod=1108">Product design</a></li>
+                    <li class="list-group-item"><a href="https://mdh.se/utbildning/program/utbildningsplaner-1.44892?kod=746">Production</a></li>
+                    <li class="list-group-item"><a href="https://mdh.se/utbildning/program/utbildningsplaner-1.44892?kod=983">Energy systems</a></li>
+                    <li class="list-group-item"><a href="https://mdh.se/utbildning/program/utbildningsplaner-1.44892?kod=965">Industrial economy</a></li>
+                    <li class="list-group-item"><a href="https://mdh.se/utbildning/program/utbildningsplaner-1.44892?kod=1123">Aeronautics</a></li>
+                    <li class="list-group-item"><a href="https://mdh.se/utbildning/program/utbildningsplaner-1.44892?kod=910">Network comunication</a></li>
+                    <li class="list-group-item"><a href="https://mdh.se/utbildning/program/utbildningsplaner-1.44892?kod=1116">Robotics</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <p>Now we are putting our knowledge, brains and hearts together to design, construct, market, and drive a
+            vehicle, propelled only by the free energy from the sun.</p>
+            <p>We do this because it challenges our innovative development, our technical competence, but mainly
+            to bring attention to vehicles that contribute to a sustainable future.</p>
+    </div>
+    
 
 
-            <!-- picture -->
-            <img src="/images/team-dark-bg.png" class="img-fluid" alt="Responsive image">
-
-            <p>
-                <br>
-                <a href="/team/students.php" class="btn btn-dark">Presenting students</a>
-                <a href="sponsors.php" class="btn btn-dark">Our Partners</a>
-            </p>
-            <p>As persons, we are devoted to invest our time and effort in future energy system. We can all see ourselves working with future environmental friendly and sustainable systems.</p>
-            <p>We are currently students and represent the following fields</p>
-            <ul>
-                <li>Information designers</li>
-                <li>engineers within
-                    <ul>
-                        <li>product design</li>
-                        <li>production</li>
-                        <li>energy systems</li>
-                        <li>industrial economy</li>
-                        <li>aeronautics</li>
-                        <li>network comunication</li>
-                        <li>robotics</li>
-                    </ul>
-                </li>
-            </ul>
-            <p>Now we are putting our knowledge, brains and hearts together to design, construct, market, and drive a
-                vehicle, propelled only by the free energy from the sun.</p>
-                <p>We do this because it challenges our innovative development, our technical competence, but mainly
-                to bring attention to vehicles that contribute to a sustainable future.</p>
-        </div>
-
-
-        <div include-html="../assets/footer.html"></div>
+        <div include-html="/assets/footer.html"></div>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

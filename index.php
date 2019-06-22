@@ -32,11 +32,13 @@
     <title>MDH Solar Team - Start Page</title>
 </head>
 
-<body class="body-bg bg-gradient-primary pt-2 pb-2">
-    <div class="container whole">
+<body class="body-bg bg-gradient-primary">
+    
+    <div include-html="/assets/header.html"></div>
 
-        <div include-html="assets/nav.html"></div>
+    <div include-html="/assets/nav-v2.html"></div>
 
+    <div class="container">
         <!--carousel-->
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -59,7 +61,7 @@
                     <img src="" class="check d-block w-100 img-fluid" alt="...">
                     <div class="card-img-overlay text-dark">
                         <h1 class="card-title display-1 text-dark my-shadow-lg">Recent work</h1>
-                        <p class="card-text display-5 text-white my-shadow-sm">Read more about what we have
+                        <p class="card-text display-5 text-dark my-shadow-sm">Read more about what we have
                             done last week</p>
                             <a class="btn btn-warning btn-lg" href="vehicle/carbon-fiber.html" role="button">Look inside</a>
                     </div>
@@ -69,7 +71,7 @@
                     <img src="" class="check d-block w-100 img-fluid" alt="...">
                     <div class="card-img-overlay text-dark">
                         <h1 class="card-title display-1 text-dark my-shadow-lg">Brakes</h1>
-                        <p class="card-text display-5 text-white my-shadow-sm">Not that simple - They must do the job</p>
+                        <p class="card-text display-5 text-dark my-shadow-sm">Not that simple - They must do the job</p>
                             <a class="btn btn-warning btn-lg" href="vehicle/brake-system.php" role="button">Look inside</a>
                     </div>
                 </div>
@@ -91,7 +93,7 @@
 
         <!--Header-->
         <div class="container-fluid mt-sm-4">
-            <h1 class="h1 text-info">We would like you to follow us</h1>
+            <h1 class="h1 text-warning">We would like you to follow us</h1>
 
             <div class="container">
                 <div class="row  mb-2">
@@ -142,18 +144,17 @@
             </div>
 
             <!--logos-->
-            <div class="container">
-                <?php require "assets/logos.php"; ?>
-            </div>
+            <?php require "assets/logos.php"; ?>
             <!--/logos-->
 
         </div>
         <!--/header-->
 
-
-        <div include-html="assets/footer.html"></div>
-
     </div>
+    
+    <div include-html="assets/footer.html"></div>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

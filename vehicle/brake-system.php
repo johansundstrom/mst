@@ -27,11 +27,13 @@
 <title>MDH Solar Team - Vehicle - Facts</title>
 </head>
 
-<body class="body-bg bg-gradient-primary pt-2 pb-2">
-    <div class="container whole">
+<body class="body-bg bg-gradient-primary">
+    
+    <div include-html="/assets/header.html"></div>
 
+    <div include-html="/assets/nav-v2.html"></div>
 
-        <div include-html="/assets/nav.html"></div>
+    <div class="container">
 
         <div class="container">
         <h1 class="h1">Braking system</h1>
@@ -76,8 +78,10 @@
             the braking blocks used in bicycles are used for the back wheels while
             gokart braking blocks are used for the front wheels. </p>
         </div>
-        <div include-html="/assets/footer.html"></div>
     </div>
+    
+    <div include-html="/assets/footer.html"></div>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
