@@ -46,10 +46,8 @@
                 <a href="/team/students.php" class="btn btn-dark">Presenting students</a>
                 <a href="sponsors.php" class="btn btn-dark">Our Partners</a>
             </p>
-            <p>Even as children we were the curius kind. Spending time watching the environment around us, learning from
-                it, developing with it. Today as students at Mälardalen University we are study becoming the next
-                generation.</p>
-            <p>We represent fields such as...</p>
+            <p>As persons, we are devoted to invest our time and effort in future energy system. We can all see ourselves working with future environmental friendly and sustainable systems.</p>
+            <p>We are currently students and represent the following fields</p>
             <ul>
                 <li>Information designers</li>
                 <li>engineers within
@@ -65,10 +63,9 @@
                 </li>
             </ul>
             <p>Now we are putting our knowledge, brains and hearts together to design, construct, market, and drive a
-                vehicle, only driven by the sun, through Australia.
-                We are doing this because it challenges our innovative development, our technical competence, but mainly
+                vehicle, propelled only by the free energy from the sun.</p>
+                <p>We do this because it challenges our innovative development, our technical competence, but mainly
                 to bring attention to vehicles that contribute to a sustainable future.</p>
-
         </div>
 
 

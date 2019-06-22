@@ -49,9 +49,9 @@
                     <img src="/images/your-logo-here-16-10.jpg" height="300" class="d-block w-100 img-fluid"
                         alt="...">
                     <img class="check d-block w-100 img-fluid" alt="">
-                    <div class="card-img-overlay text-dark text-right">
-                        <h1 class="card-title display-1 text-dark my-shadow-lg">Become partner</h1>
-                        <a class="btn btn-warning btn-lg" href="partner/" role="button">More info</a>
+                    <div class="card-img-overlay text-dark">
+                        <h1 class="card-title display-1 text-dark my-shadow-lg">Become a partner</h1>
+                        <a class="btn btn-warning btn-lg" href="partner/" role="button">Contact information</a>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -59,8 +59,8 @@
                     <img src="" class="check d-block w-100 img-fluid" alt="...">
                     <div class="card-img-overlay text-dark">
                         <h1 class="card-title display-1 text-dark my-shadow-lg">Recent work</h1>
-                        <p class="card-text display-5 text-white my-shadow-sm">Read more about what we
-                            done the last week</p>
+                        <p class="card-text display-5 text-white my-shadow-sm">Read more about what we have
+                            done last week</p>
                             <a class="btn btn-warning btn-lg" href="vehicle/carbon-fiber.html" role="button">Look inside</a>
                     </div>
                 </div>
@@ -141,9 +141,11 @@
                 </div>
             </div>
 
+            <!--logos-->
             <div class="container">
                 <?php require "assets/logos.php"; ?>
             </div>
+            <!--/logos-->
 
         </div>
         <!--/header-->

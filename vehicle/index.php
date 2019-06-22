@@ -75,9 +75,7 @@
                 </div>
             </div>
             <!--/cards-->
-            <div class="container">
-                    <div include-html="/assets/logos.html"></div>
-            </div>
+
 
             <div class="container">
                 <?php require "../assets/logos.php"; ?>

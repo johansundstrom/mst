@@ -57,7 +57,7 @@
                         echo '<div class="card-img-overlay pt-2">';
                             echo '<h5 class="card-title">' . $row["first"] . ' ' . $row["last"] . '</h5>';
                             echo '<p class="card-text">' . $row["role"] . '<br>';
-                            echo 'Production and product design</p>';
+                            echo $row["program"] . '</p>';
                         echo '</div>';
                     echo '</div>';
                 echo '</div>';

@@ -4,19 +4,38 @@
   font-family: "New Gothic MT";
   src: url("/fonts/NewsGothicMT.ttf"); }
 
-.header {
-  background-color: black;
-  height: 12em; }
-
-.head-logo, img {
-  height: 10em; }
-
+/* header */
 @media screen and (max-width: 800px) {
   .second {
     visibility: hidden; } }
 
-.main {
-  margin: 10px; }
+.container .header {
+  background-color: black; }
+
+.header img {
+  height: 10em; }
+
+.bg-header {
+  background-color: #f80;
+  /*background-image: linear-gradient(to right, $bg-header-start, $bg-header-end);*/ }
+
+.my-header {
+  background-color: black;
+  height: 180px; }
+
+.logo {
+  width: 300px;
+  float: left; }
+
+/* /header */
+.nav {
+  /*background-image: linear-gradient(to right, $bg-header-end, $bg-header-start);*/
+  background-color: #f80;
+  margin-bottom: 2em; }
+
+.navbar-nav a {
+  font-family: arial;
+  color: blue; }
 
 .whole {
   padding: 2px;
@@ -30,18 +49,10 @@
   padding: 1em;
   font-size: 0.8em;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-image: linear-gradient(to top, #fff0bf, #ff8800); }
+  background-image: linear-gradient(to top, #f7b969, #ff8800); }
 
 .mycard-deck {
   margin-bottom: 2em; }
-
-.body-bg {
-  background-color: #f7f4eb; }
-
-.bg-header {
-  background-color: #f80;
-  height: 100px;
-  background-image: linear-gradient(to right, #fff0bf, #ff8800); }
 
 /*
 .bg-header {
@@ -59,16 +70,14 @@
   font-family: "arial"; }
 
 .my-shadow-sm {
-  text-shadow: 2px 2px 0 #ff8800, 2px -2px 0 #ff8800, -2px 2px 0 #ff8800, -2px -2px 0 #ff8800, 2px 0px 0 #ff8800, 0px 2px 0 #ff8800, -2px 0px 0 #ff8800, 0px -2px 0 #ff8800, 1px 1px 2px rgba(206, 226, 22, 0.95); }
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px, #ccc 0px 0px 20px, #ccc 0px 0px 30px, #ccc 0px 0px 40px, #ccc 0px 0px 50px, #ccc 0px 0px 75px, 0px 0px 0px rgba(212, 255, 112, 0);
+  color: #1c1c1c;
+  font-family: "arial"; }
 
 .check {
   position: absolute;
   top: 80px;
   opacity: 0.5; }
-
-body {
-  background-image: url(../images/mm-paper-v2.png);
-  background-repeat: repeat; }
 
 .fa-facebook-square {
   color: #3c5a99; }

@@ -42,9 +42,10 @@
                 <p>We are currently looking for some more sponsorship in order to finance everything. We see a great potential in collaboration where we can 
                     either have a full day on your site with the Solar car, or we can invite your company to a grand tour in Mälardalen University.
                 </p>
+                <p>Contact our marketing team respresentative <a href="mailto:solarteam@mdh.se">solarteam@mdh.se</a> or call +46 16 15 3639</p>
 
                 <h2>A massive Thank You to all our current partners</h2> 
-                <div include-html="/assets/logos.html"></div>
+                <div include-html="/assets/logos.php"></div>
             </div>
         </div>
     </div>

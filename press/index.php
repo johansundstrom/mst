@@ -31,7 +31,8 @@
 </head>
 
 <body class="body-bg bg-gradient-primary pt-2 pb-2">
-    <div class="container whole">
+
+    <div include-html="/assets/header.html"></div>
 
     <div include-html="/assets/nav.html"></div>
 

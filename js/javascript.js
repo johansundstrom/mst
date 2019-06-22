@@ -28,33 +28,33 @@ function includeHTML() {
 }
 
 
-// Set the date we're counting down to
-var countDownDate = new Date("Oct 12, 2019 00:00:00").getTime();
+// ACST – Australian Central Standard Time - UTC +9:30 hours all of the period 
+var countDownDate = new Date('October 13, 2019 08:30:00 +0930').getTime();
 
-// Update the count down every 1 second
-var x = setInterval(function() {
+// Update every second
+var i = setInterval(function() {
 
-  // Get todays date and time
-  var now = new Date().getTime();
-    
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-    
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-  // Output the result in an element with id="demo"
-  document.getElementById("myCountDown").innerHTML = "Trivia: Race starts in " + days + " days and " + hours + " hours, "
-  + minutes + "mins, " + seconds + " secs";
-    
-  // If the count down is over, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("myCountDown").innerHTML = "Race is over!";
-  }
+    // Get now
+    let now = new Date().getTime();
+
+    // timeLeft
+    let timeLeft = countDownDate - now;
+
+    // Time calculations
+    let days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+    // Output
+    document.getElementById("myCountDown").innerHTML = "Trivia: Race starts in " + days + " days and " + hours + ":"
+    + minutes + ":" + seconds;
+
+    // If the count down is over, write some text 
+    if (timeLeft < 0) {
+    clearInterval(i);
+    document.getElementById("myCountDown").innerHTML = "Race has started!";
+    }
 }, 1000);
 
 
