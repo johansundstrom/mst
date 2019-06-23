@@ -70,7 +70,7 @@
                         <p><a href="https://goo.gl/maps/5YjibdHSp4bkHhth8">
                             <i class="fas fa-lg fa-map-marker-alt"></i>
                         <small>Fristadstorget, 632 20 Eskilstuna, Sweden</small></a></p>
-                        <a href="#" class="btn btn-warning">Go somewhere</a>
+                        <a href="https://www.facebook.com/events/396169200987938/" class="btn btn-warning">More info</a>
                     </div>
                 </div>
 
