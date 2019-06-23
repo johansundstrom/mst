@@ -110,6 +110,7 @@
                         <p class="card-text">5. Finished product. Strong and light weight.</p>
                     </div>
                 </div>
+            </div>
 
         </div>
     </div>

@@ -1,11 +1,16 @@
 $bg-color: #f7f4eb;
 $content-color: white;
+$base-color: #ff8800;
+
 $whole-border: 1px solid #ccc;
 $bg-header-start: #f7b969;
-$bg-header-end: #ff8800;
-$text-outline: #ff8800;
-$bg-header: #ff8800;
+$bg-header-end: $base-color;
+$text-outline: $base-color;
+$bg-header: $base-color;
 $head-shad: 50px;
+$bg-footer-start: #e9973a;
+$bg-footer-end: $base-color;
+
 
 @import url("/css/logo-grid.css");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
@@ -20,7 +25,9 @@ $head-shad: 50px;
   padding: 0;
 }
 
-.text-warning {color: ff8800;}
+.bg-warning {color: $bg-header;}
+
+.text-warning {color: $bg-header;}
 
 /* header */
 .my-header .container {
@@ -77,11 +84,13 @@ $head-shad: 50px;
 }
 
 .footer {
+  border-top: 3px solid black;
   padding: 1em;
   font-size: 0.8em;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  /*background-image: linear-gradient(to top, $bg-header-start, $bg-header-end);*/
-  background-color: $bg-header;
+  background-image: linear-gradient(to top, $bg-footer-start, $bg-footer-end);
+  /*background-color: $bg-footer;*/
+  color: #363636;
 }
 
 .mycard-deck {
@@ -145,6 +154,14 @@ $head-shad: 50px;
   opacity: 0.5;
 }
 
+.countdown {
+  padding: 3px;
+  color: red;
+}
+
+
+
+/* footer */
 .fa-facebook-square {
   color: #3c5a99;
 }
@@ -170,22 +187,18 @@ $head-shad: 50px;
   color: red;
 }
 
-.countdown {
-  padding: 3px;
-  color: red;
-}
 
 .my-mt-15 {
   margin-top: 30%;
   width: 100%;
 }
 
-
 .my-fluid-text {
   font-size: 2vw;
   font-size: 1vh;
   font-size: 2vmin;
 }
+
 
 /* Student hover effwect */
 /* [1] The container */
@@ -210,43 +223,12 @@ $head-shad: 50px;
   filter: grayscale(100%);
 }
 
-/* The Transformation */
+/* Transformation */
 .img-hover-zoom--colorize:hover img {
   filter: grayscale(0);
   transform: scale(1.1);
 }
-
 /* /Student hover effwect */
-
-/*
-.card-img:hover .grow {
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-.card-img:hover {
-  opacity: 0.4;
-  transition: 0.5s ease-in-out;
-  width: 105%;
-  display: block;
-}
-
-.overlay-opac {
-  background-color: #fff;
-  opacity: 0.7;
-}
-
-.overlay-opac2 {
-  opacity: 6;
-}
-
-.card-img-overlay {
-  opacity: 0%;
-}
-*/
 
 a.carousel-control-prev,
 a.carousel-control-next {
